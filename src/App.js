@@ -1,5 +1,6 @@
-/*import logo from './logo.svg';
-import './App.css';
+import cat from './cat-icon.jpg';
+import dog from './dog-icon.jpg';
+/*import './App.css';
 
 function App() {
   return (
@@ -28,8 +29,12 @@ import React from 'react';
 
 class App extends React.Component {
   render() {
-    return <img src="./src/cat-icon.jpg" alt="" />;
-
+    return (
+      <div>
+      <img src={cat} alt="" width="200px" />
+      <img src={dog} alt="" width="200px" />
+      </div>
+    )
   }
 }
 
