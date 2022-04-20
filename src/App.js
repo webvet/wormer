@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+/*import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="./cat-icon.jpg" className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -20,6 +20,17 @@ function App() {
       </header>
     </div>
   );
+}
+
+export default App;
+*/
+import React from 'react';
+
+class App extends React.Component {
+  render() {
+    return <img src="./src/cat-icon.jpg" alt="" />;
+
+  }
 }
 
 export default App;
