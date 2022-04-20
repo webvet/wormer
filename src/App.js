@@ -31,8 +31,8 @@ class App extends React.Component {
   render() {
     return (
       <div>
-      <img src={cat} alt="" width="200px" />
-      <img src={dog} alt="" width="200px" />
+      <img src={cat} alt="" width="50%" />
+      <img src={dog} alt="" width="50%" />
       </div>
     )
   }
